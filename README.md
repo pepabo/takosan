@@ -24,7 +24,7 @@ Or install it yourself as:
 ```ruby
 Takosan.url = "http://irc.example.com:4649"
 Takosan.channel = "#example"
-Takosan.notice 'awesome comment'
+Takosan.privmsg 'awesome comment'
 ```
 
 ## Contributing
