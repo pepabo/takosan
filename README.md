@@ -1,6 +1,6 @@
 # Takosan
 
-[![Gem Version](https://badge.fury.io/rb/takosan.png)](http://badge.fury.io/rb/takosan)
+[![Gem Version](https://badge.fury.io/rb/takosan.svg)](http://badge.fury.io/rb/takosan)
 [![Build Status](https://travis-ci.org/pepabo/takosan.png?branch=master)](https://travis-ci.org/pepabo/takosan)
 
 Ruby wrapper of Takosan
