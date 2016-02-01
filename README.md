@@ -29,6 +29,13 @@ Takosan.channel = "#example"
 Takosan.privmsg 'awesome comment'
 ```
 
+You can change Takosan's icon and name like the following:
+
+```ruby
+Takosan.icon = ":angel:"
+Takosan.name = "ikasan"
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/takosan/fork )
