@@ -5,12 +5,12 @@ require 'pathname'
 require 'active_support/all'
 
 module Takosan
-  mattr_accessor :url, :channel
+  mattr_accessor :url, :channel, :name, :icon
 
   module_function
 
   def privmsg(message)
-    request('/privmsg', { 'channel' => @@channel, 'message' => message })
+    request('/privmsg', { 'channel' => @@channel, 'message' => message, 'name' => @@name, 'icon' => @@icon })
   end
 
   def uri_for(path = nil)
