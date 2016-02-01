@@ -9,7 +9,9 @@ Ruby wrapper of [Takosan](https://github.com/kentaro/takosan)
 
 Add this line to your application's Gemfile:
 
-    gem 'takosan'
+```ruby
+gem 'takosan'
+```
 
 And then execute:
 
