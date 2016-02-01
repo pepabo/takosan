@@ -3,7 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/takosan.svg)](http://badge.fury.io/rb/takosan)
 [![Build Status](https://travis-ci.org/pepabo/takosan.svg?branch=master)](https://travis-ci.org/pepabo/takosan)
 
-Ruby wrapper of Takosan
+Ruby wrapper of [Takosan](https://github.com/kentaro/takosan)
 
 ## Installation
 
