@@ -9,3 +9,6 @@ rvm:
   - ruby-head
 
 script: rake test
+notifications:
+  slack:
+    secure: IS+ole3N+hd7dDrVXAScP87N2Y7qZJkFC9d+JNPu6W2LkwdNvpV8fWc7GCNGyyQ8IeEVUNML8Ybgh4jg+rH+haU5dndedeW4xhM7Tk/MXV2lIOsG363J63ucSYWmtLxQQNRN6eM56qq8vyS3fdTcI6WxR6I+83N59Sm/XnPb6rU=
