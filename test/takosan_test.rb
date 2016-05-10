@@ -24,22 +24,6 @@ class TakosanTest < Test::Unit::TestCase
     Takosan.privmsg('foo bar buzz')
   end
 
-  def test_privmsg_with_title
-    http = mock('http')
-    http.stub_everything
-    http.expects(:request)
-    Net::HTTP.expects(:new).with('irc.example.com', 4649).returns(http)
-
-    req = mock('req')
-    req.stub_everything
-    req.expects(:form_data=).with do |params|
-      (params['channel'] == '#example') && (params['message'] == 'foo bar') && (params['title'] == 'buzz')
-    end
-    Net::HTTP::Post.expects(:new).with('/privmsg').returns(req)
-
-    Takosan.privmsg('foo bar', 'buzz')
-  end
-
   def test_rescue_timeout_error
     http = stub('http')
     http.stub_everything
