@@ -36,6 +36,11 @@ module Takosan
   end
 
   def logger
-    @@_logger ||= Rails.logger
+    @@_logger ||=
+      if defined?(Rails.logger)
+        Rails.logger
+      else
+        Logger.new($stderr)
+      end
   end
 end
