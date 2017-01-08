@@ -27,6 +27,7 @@ Or install it yourself as:
 Takosan.url = "http://irc.example.com:4649"
 Takosan.channel = "#example"
 Takosan.privmsg 'awesome comment'
+Takosan.privmsg 'awesome comment and title with link', color: '#000', title: 'black title', title_link: 'http://example.com'
 ```
 
 You can change Takosan's icon and name like the following:
