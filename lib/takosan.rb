@@ -9,8 +9,8 @@ module Takosan
 
   module_function
 
-  def privmsg(message, **attachments)
-    request('/privmsg', attachments.merge({ 'channel' => @@channel, 'message' => message, 'name' => @@name, 'icon' => @@icon }))
+  def privmsg(message, **options)
+    request('/privmsg', options.merge({ 'channel' => @@channel, 'message' => message, 'name' => @@name, 'icon' => @@icon }))
   end
 
   def uri_for(path = nil)

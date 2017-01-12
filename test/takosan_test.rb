@@ -24,7 +24,7 @@ class TakosanTest < Test::Unit::TestCase
     Takosan.privmsg('foo bar buzz')
   end
 
-  def test_privmsg_with_attachments
+  def test_privmsg_with_message_attachments
     http = mock('http')
     http.stub_everything
     http.expects(:request)
